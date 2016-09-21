@@ -125,3 +125,11 @@ UnitTestSessionAction 1474464520649 TestBowling.java OK
 RefactoringAction 1474464737365 TestBowling.java ADD void testMultipleStrikes()/2 METHOD
 RefactoringAction 1474464752294 TestBowling.java RENAME testMultipleStrikes()/2=>void testMultipleSpares() METHOD
 EditAction 1474464802604 TestBowling.java 2191 7 46 7
+UnitTestCaseAction 1474464817259 TestBowling.java OK
+UnitTestSessionAction 1474464817275 TestBowling.java OK
+RefactoringAction 1474464830535 TestBowling.java ADD void testMultipleSpares()/2 METHOD
+RefactoringAction 1474464833639 TestBowling.java RENAME testMultipleSpares()/2=>void tst() METHOD
+RefactoringAction 1474464836213 TestBowling.java RENAME tst()=>void test() METHOD
+RefactoringAction 1474464842391 TestBowling.java RENAME test()=>void testSpare() METHOD
+RefactoringAction 1474464849083 TestBowling.java RENAME testSpare()=>void testSpareLastFrame() METHOD
+EditAction 1474464880720 TestBowling.java 2733 8 60 8

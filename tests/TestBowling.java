@@ -37,15 +37,15 @@ public class TestBowling {
 	@Test
 	public void testBowlingScore() {
 		List<Frame> fr = new ArrayList<Frame>();
-		fr.add(new Frame(2, 1));
-		fr.add(new Frame(10, 0));
-		fr.add(new Frame(6, 1));
-		fr.add(new Frame(2, 1));
-		fr.add(new Frame(9, 1));
-		fr.add(new Frame(2, 1));
 		Frame bonus = new Frame (2, 1);
 		BowlingGame bg = new BowlingGame(fr, bonus);
-		assertEquals(45, bg.score());
+		bg.addFrame(new Frame(2, 2));
+		bg.addFrame(new Frame(10, 0));
+		bg.addFrame(new Frame(2, 1));
+		bg.addFrame(new Frame(2, 8));
+		bg.addFrame(new Frame(2, 1));
+		bg.addFrame(new Frame(7, 1));
+		assertEquals(43, bg.score());
 	}
 
 }

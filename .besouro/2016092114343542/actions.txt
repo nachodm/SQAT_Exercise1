@@ -103,3 +103,4 @@ UnitTestCaseAction 1474462946993 TestBowling.java OK
 UnitTestSessionAction 1474462946993 TestBowling.java OK
 RefactoringAction 1474463049563 TestBowling.java ADD void testBowlingScore() METHOD
 EditAction 1474463109327 TestBowling.java 1072 5 18 5
+EditAction 1474463289822 TestBowling.java 1102 5 18 5

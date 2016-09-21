@@ -65,5 +65,23 @@ public class TestBowling {
 		bg.addFrame(new Frame(2, 6));
 		assertEquals(112, bg.score());
 	}
+	
+	@Test
+	public void testMultipleSpares() {
+		List<Frame> fr = new ArrayList<Frame>();
+		Frame bonus = new Frame (0, 0);
+		BowlingGame bg = new BowlingGame(fr, bonus);
+		bg.addFrame(new Frame(8, 2));
+		bg.addFrame(new Frame(5, 5));
+		bg.addFrame(new Frame(7, 2));
+		bg.addFrame(new Frame(3, 6));
+		bg.addFrame(new Frame(4, 4));
+		bg.addFrame(new Frame(5, 3));
+		bg.addFrame(new Frame(3, 3));
+		bg.addFrame(new Frame(4, 5));
+		bg.addFrame(new Frame(8, 1));
+		bg.addFrame(new Frame(2, 6));
+		assertEquals(98, bg.score());
+	}
 
 }

@@ -249,3 +249,11 @@
 1474463520358 test-addition 2 470 true
 1474463520359 test-addition 2 470 true
 1474463520360 test-addition 1 470 true
+1474464520649 test-addition 2 979 true
+1474464520650 test-addition 2 979 true
+1474464520651 test-addition 2 979 true
+1474464520652 test-addition 1 979 true
+1474464520653 test-addition 2 979 true
+1474464520654 test-addition 2 979 true
+1474464520655 test-addition 2 979 true
+1474464520656 test-addition 1 979 true

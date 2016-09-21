@@ -27,38 +27,27 @@ public class BowlingGame {
 	
 	// Returns the game score
 	public int score(){
-		
 		int gameScore = 0;
 		int bonusStrike = 0;
-		boolean strike = false;
 		int bonusSpare = 0;
-		boolean spare = false;
 		
 		for (int i = 0; i < frames.size(); i++) {
-			if (i > 0) {
-				if (frames.get(i - 1).isStrike()) {
-					strike = true;
-					bonusStrike = bonusStrike + frames.get(i).score();
-				}
-				else if (frames.get(i - 1).isSpare()) {
-					bonusSpare = bonusSpare + frames.get(i).getFirstThrow();
-				}
-				
-				if (!frames.get(i - 1).isStrike() || i == frames.size() - 1) {
-					strike = false;
-					gameScore = gameScore + bonusStrike;
-					bonusStrike = 0;
-				}
-				
-				if (!frames.get(i - 1).isSpare() || i == frames.size() - 1) {
-					spare = false;
-					gameScore = gameScore + bonusSpare;
-					bonusSpare = 0;
+			if ((i < frames.size() - 1 && frames.get(i).isStrike())) {
+				bonusStrike = frames.get(i + 1).score();
+				if ((i < frames.size() - 2 && frames.get(i + 1).isStrike())) {
+					bonusStrike = bonusStrike + frames.get(i +  2).getFirstThrow();
 				}
 			}
-			gameScore = gameScore + frames.get(i).score();
+			else if ((i < frames.size() - 1 && frames.get(i).isSpare())) {
+				bonusSpare = bonusSpare + frames.get(i + 1).getFirstThrow();
+			}
+			gameScore = gameScore + frames.get(i).score() + bonusStrike + bonusSpare;
+			bonusStrike = 0;
+			bonusSpare = 0;
 		}
-		
+		if (frames.size() == 10) {
+			gameScore = gameScore + bonus.score();
+		}
 		return gameScore;
 	}
 }

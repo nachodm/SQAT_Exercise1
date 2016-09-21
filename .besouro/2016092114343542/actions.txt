@@ -104,3 +104,13 @@ UnitTestSessionAction 1474462946993 TestBowling.java OK
 RefactoringAction 1474463049563 TestBowling.java ADD void testBowlingScore() METHOD
 EditAction 1474463109327 TestBowling.java 1072 5 18 5
 EditAction 1474463289822 TestBowling.java 1102 5 18 5
+UnitTestCaseAction 1474463314676 TestBowling.java FAIL
+UnitTestSessionAction 1474463314676 TestBowling.java FAIL
+UnitTestCaseAction 1474463370106 TestBowling.java FAIL
+UnitTestSessionAction 1474463370106 TestBowling.java FAIL
+UnitTestCaseAction 1474463520355 TestBowling.java OK
+UnitTestSessionAction 1474463520355 TestBowling.java OK
+RefactoringAction 1474463541118 TestBowling.java RENAME testBowlingScore()=>void testBowlingScore1() METHOD
+RefactoringAction 1474463549355 TestBowling.java ADD void testBowlingScore1()/2 METHOD
+RefactoringAction 1474463554503 TestBowling.java RENAME testBowlingScore1()/2=>void testMultipleStrikes() METHOD
+EditAction 1474463690567 TestBowling.java 1649 6 32 6

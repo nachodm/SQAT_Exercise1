@@ -85,7 +85,7 @@ public class TestBowling {
 	}
 	
 	@Test
-	public void testSpareLastFrame() {
+	public void testSpareLastFrameWithoutBonus() {
 		List<Frame> fr = new ArrayList<Frame>();
 		Frame bonus = new Frame (0, 0);
 		BowlingGame bg = new BowlingGame(fr, bonus);

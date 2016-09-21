@@ -139,3 +139,5 @@ EditAction 1474464922409 TestBowling.java 2733 8 60 8
 RefactoringAction 1474464931410 TestBowling.java RENAME testSpareLastFrame()=>void testSpareLastFrameWithout() METHOD
 RefactoringAction 1474464933469 TestBowling.java RENAME testSpareLastFrameWithout()=>void testSpareLastFrameWithoutBonus() METHOD
 EditAction 1474464934359 TestBowling.java 2745 8 60 8
+UnitTestCaseAction 1474464977698 TestBowling.java OK
+UnitTestSessionAction 1474464977698 TestBowling.java OK

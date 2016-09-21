@@ -99,3 +99,7 @@ RefactoringAction 1474462923964 TestBowling.java RENAME teststrike()=>void testN
 RefactoringAction 1474462929627 TestBowling.java ADD void testNoStrike()/2 METHOD
 RefactoringAction 1474462931171 TestBowling.java RENAME testNoStrike()/2=>void testStrike() METHOD
 EditAction 1474462944353 TestBowling.java 1076 4 8 4
+UnitTestCaseAction 1474462946993 TestBowling.java OK
+UnitTestSessionAction 1474462946993 TestBowling.java OK
+RefactoringAction 1474463049563 TestBowling.java ADD void testBowlingScore() METHOD
+EditAction 1474463109327 TestBowling.java 1072 5 18 5

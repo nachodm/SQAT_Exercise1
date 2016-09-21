@@ -34,7 +34,7 @@ public class TestBowling {
 		assertEquals(true, frame.isSpare());
 	}
 	
-	/*@Test
+	@Test
 	public void testBowlingScore() {
 		List<Frame> fr = new ArrayList<Frame>();
 		fr.add(new Frame(2, 1));
@@ -46,6 +46,6 @@ public class TestBowling {
 		Frame bonus = new Frame (2, 1);
 		BowlingGame bg = new BowlingGame(fr, bonus);
 		assertEquals(45, bg.score());
-	}*/
+	}
 
 }

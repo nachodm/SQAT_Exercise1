@@ -8,5 +8,11 @@ public class TestBowling {
 	public void test() {
 		fail("Not yet implemented");
 	}
+	
+	@Test
+	public void sumFrame() {
+		Frame frame = new Frame(3, 7);
+		Frame.score();
+	}
 
 }

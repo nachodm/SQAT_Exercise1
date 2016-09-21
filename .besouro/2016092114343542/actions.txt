@@ -73,3 +73,23 @@ CompilationAction 1474460129283 TestBowling.java
 CompilationAction 1474460129284 TestBowling.java
 EditAction 1474460458336 Frame.java 886 6 12 0
 EditAction 1474461336946 BowlingGame.java 943 5 7 0
+CompilationAction 1474461744390 TestBowling.java
+CompilationAction 1474461744390 TestBowling.java
+CompilationAction 1474461744390 TestBowling.java
+CompilationAction 1474461744390 TestBowling.java
+CompilationAction 1474461744390 TestBowling.java
+CompilationAction 1474461744390 TestBowling.java
+CompilationAction 1474461744390 TestBowling.java
+CompilationAction 1474461744905 TestBowling.java
+CompilationAction 1474461744905 TestBowling.java
+CompilationAction 1474461744905 TestBowling.java
+CompilationAction 1474461744905 TestBowling.java
+CompilationAction 1474461744905 TestBowling.java
+RefactoringAction 1474462027151 TestBowling.java ADD import java.util.ArrayList IMPORT
+RefactoringAction 1474462027151 TestBowling.java ADD import java.util.List IMPORT
+UnitTestCaseAction 1474462241280 TestBowling.java FAIL
+UnitTestSessionAction 1474462241280 TestBowling.java FAIL
+UnitTestCaseAction 1474462765506 TestBowling.java FAIL
+UnitTestSessionAction 1474462765506 TestBowling.java FAIL
+RefactoringAction 1474462870868 TestBowling.java REMOVE testBowlingScore() METHOD
+EditAction 1474462885158 TestBowling.java 957 3 6 3

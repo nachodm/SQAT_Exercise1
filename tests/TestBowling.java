@@ -1,5 +1,8 @@
 import static org.junit.Assert.*;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.junit.Test;
 
 public class TestBowling {
@@ -26,9 +29,18 @@ public class TestBowling {
 		assertEquals(true, frame.isSpare());
 	}
 	
-	@Test
+	/*@Test
 	public void testBowlingScore() {
-		Bowling Game bg = new BowlingGame ([(3, 5), (3, 7), (3, 1), (10, 0), (3, 1), (1, 2), (0, 10), (1, 1), (10, 0), (4, 6)], (3, 3));
-	}
+		List<Frame> fr = new ArrayList<Frame>();
+		fr.add(new Frame(2, 1));
+		fr.add(new Frame(10, 0));
+		fr.add(new Frame(6, 1));
+		fr.add(new Frame(2, 1));
+		fr.add(new Frame(9, 1));
+		fr.add(new Frame(2, 1));
+		Frame bonus = new Frame (2, 1);
+		BowlingGame bg = new BowlingGame(fr, bonus);
+		assertEquals(45, bg.score());
+	}*/
 
 }

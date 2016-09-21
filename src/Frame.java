@@ -42,7 +42,6 @@ public class Frame {
 		if ((!isStrike()) && (score() == 10)) {
 			spare = true;
 		}
-		
 		return spare;
 	}
 }

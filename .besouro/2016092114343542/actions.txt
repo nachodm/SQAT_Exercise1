@@ -26,3 +26,6 @@ RefactoringAction 1474458876875 TestBowling.java ADD void Strike()/2 METHOD
 RefactoringAction 1474458879894 TestBowling.java RENAME Strike()/2=>void strike() METHOD
 RefactoringAction 1474458883920 TestBowling.java RENAME Strike()=>void spare() METHOD
 EditAction 1474458891902 TestBowling.java 507 3 6 3
+UnitTestCaseAction 1474458895390 TestBowling.java OK
+UnitTestSessionAction 1474458895391 TestBowling.java OK
+EditAction 1474458996150 Frame.java 886 6 12 0

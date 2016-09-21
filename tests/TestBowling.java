@@ -4,15 +4,21 @@ import org.junit.Test;
 
 public class TestBowling {
 
-	@Test
+	/*@Test
 	public void test() {
 		fail("Not yet implemented");
-	}
+	}*/
 	
 	@Test
 	public void sumFrame() {
 		Frame frame = new Frame(3, 7);
 		assertEquals(10, frame.score());
+	}
+	
+	@Test
+	public void sumFrameError() {
+		Frame frame = new Frame(3, 7);
+		assertEquals(8, frame.score());
 	}
 
 }

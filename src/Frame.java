@@ -30,6 +30,7 @@ public class Frame {
 		
 		if (getFirstThrow() == 10) {
 			strike = true;
+			secondThrow = 0;
 		}
 		
 		return strike;

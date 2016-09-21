@@ -28,7 +28,7 @@ public class TestBowling {
 	
 	@Test
 	public void testBowlingScore() {
-		BowlingGame bg = new BowlingGame ([(3, 5), (3, 7), (5, 1), (10, 0), (8, 1), (1, 2), (0, 10), (1, 1), (10, 0), (4, 6)], (3, 3));
+		Bowling Game bg = new BowlingGame ([(3, 5), (3, 7), (3, 1), (10, 0), (3, 1), (1, 2), (0, 10), (1, 1), (10, 0), (4, 6)], (3, 3));
 	}
 
 }

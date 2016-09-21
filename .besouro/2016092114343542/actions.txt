@@ -44,3 +44,31 @@ RefactoringAction 1474459875612 TestBowling.java RENAME spare()=>void testspare(
 RefactoringAction 1474459883127 TestBowling.java RENAME test=>void testBowlingScore FIELD
 RefactoringAction 1474459887151 TestBowling.java RENAME testBowlingScore=>void testBowlingScore() METHOD
 EditAction 1474460062385 TestBowling.java 700 4 6 3
+CompilationAction 1474460064208 TestBowling.java
+CompilationAction 1474460064210 TestBowling.java
+CompilationAction 1474460064211 TestBowling.java
+CompilationAction 1474460064211 TestBowling.java
+CompilationAction 1474460064212 TestBowling.java
+CompilationAction 1474460101110 TestBowling.java
+CompilationAction 1474460101112 TestBowling.java
+CompilationAction 1474460101113 TestBowling.java
+CompilationAction 1474460101115 TestBowling.java
+CompilationAction 1474460101117 TestBowling.java
+CompilationAction 1474460101316 TestBowling.java
+CompilationAction 1474460101317 TestBowling.java
+CompilationAction 1474460101318 TestBowling.java
+CompilationAction 1474460101319 TestBowling.java
+CompilationAction 1474460101319 TestBowling.java
+CompilationAction 1474460101320 TestBowling.java
+CompilationAction 1474460101321 TestBowling.java
+CompilationAction 1474460101321 TestBowling.java
+CompilationAction 1474460129107 TestBowling.java
+CompilationAction 1474460129277 TestBowling.java
+CompilationAction 1474460129278 TestBowling.java
+CompilationAction 1474460129279 TestBowling.java
+CompilationAction 1474460129280 TestBowling.java
+CompilationAction 1474460129281 TestBowling.java
+CompilationAction 1474460129282 TestBowling.java
+CompilationAction 1474460129283 TestBowling.java
+CompilationAction 1474460129284 TestBowling.java
+EditAction 1474460458336 Frame.java 886 6 12 0

@@ -5,3 +5,5 @@ RefactoringAction 1474458131963 TestBowling.java ADD void sum FIELD
 RefactoringAction 1474458134980 TestBowling.java REMOVE sum FIELD
 RefactoringAction 1474458138492 TestBowling.java ADD void sumFrame() METHOD
 EditAction 1474458323164 TestBowling.java 259 2 3 0
+CompilationAction 1474458324588 TestBowling.java
+EditAction 1474458461517 BowlingGame.java 674 4 3 0

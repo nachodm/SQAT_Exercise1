@@ -11,6 +11,10 @@ public class BowlingGame {
 	
 	public BowlingGame() {}
 	
+	public BowlingGame (List<Frame> frames, Frame bonus) {
+		this.frames = frames;
+		this.bonus = bonus;
+	}
 	// adds a frame to the game
 	public void addFrame(Frame frame){
 		//to be implemented

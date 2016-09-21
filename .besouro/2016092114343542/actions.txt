@@ -33,3 +33,7 @@ EditAction 1474459423883 BowlingGame.java 763 4 5 0
 EditAction 1474459498221 Frame.java 907 6 12 0
 EditAction 1474459509258 Frame.java 909 6 12 0
 EditAction 1474459718582 BowlingGame.java 920 4 3 0
+RefactoringAction 1474459773375 BowlingGame.java ADD BowlingGame()/2 METHOD
+RefactoringAction 1474459792447 BowlingGame.java RENAME BowlingGame()/2=>BowlingGame(List<Frame>) METHOD
+RefactoringAction 1474459802506 BowlingGame.java RENAME BowlingGame(List<Frame>)=>BowlingGame(List<Frame>, Frame) METHOD
+EditAction 1474459823661 BowlingGame.java 1029 5 5 0

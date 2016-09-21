@@ -19,9 +19,14 @@ public class TestBowling {
 	}
 	
 	@Test
-	public void teststrike() {
+	public void testNoStrike() {
 		Frame frame = new Frame(3, 7);
 		assertEquals(false, frame.isStrike());
+	}
+	@Test
+	public void testStrike() {
+		Frame frame = new Frame(10, 0);
+		assertEquals(true, frame.isStrike());
 	}
 	@Test
 	public void testspare() {

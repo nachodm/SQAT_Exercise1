@@ -93,3 +93,9 @@ UnitTestCaseAction 1474462765506 TestBowling.java FAIL
 UnitTestSessionAction 1474462765506 TestBowling.java FAIL
 RefactoringAction 1474462870868 TestBowling.java REMOVE testBowlingScore() METHOD
 EditAction 1474462885158 TestBowling.java 957 3 6 3
+UnitTestCaseAction 1474462905712 TestBowling.java OK
+UnitTestSessionAction 1474462905712 TestBowling.java OK
+RefactoringAction 1474462923964 TestBowling.java RENAME teststrike()=>void testNoStrike() METHOD
+RefactoringAction 1474462929627 TestBowling.java ADD void testNoStrike()/2 METHOD
+RefactoringAction 1474462931171 TestBowling.java RENAME testNoStrike()/2=>void testStrike() METHOD
+EditAction 1474462944353 TestBowling.java 1076 4 8 4

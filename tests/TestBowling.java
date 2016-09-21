@@ -12,7 +12,7 @@ public class TestBowling {
 	@Test
 	public void sumFrame() {
 		Frame frame = new Frame(3, 7);
-		Frame.score();
+		
 	}
 
 }

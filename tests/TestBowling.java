@@ -16,9 +16,14 @@ public class TestBowling {
 	}
 	
 	@Test
-	public void sumFrameError() {
+	public void strike() {
 		Frame frame = new Frame(3, 7);
-		assertEquals(8, frame.score());
+		assertEquals(false, frame.isStrike());
+	}
+	@Test
+	public void spare() {
+		Frame frame = new Frame(3, 7);
+		assertEquals(true, frame.isSpare());
 	}
 
 }

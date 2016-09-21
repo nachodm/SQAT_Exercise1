@@ -19,3 +19,10 @@ RefactoringAction 1474458795249 TestBowling.java ADD void sumFrame() METHOD
 RefactoringAction 1474458808270 TestBowling.java ADD void sumFrame()/2 METHOD
 RefactoringAction 1474458812786 TestBowling.java RENAME sumFrame()/2=>void sumFrameError() METHOD
 EditAction 1474458834097 TestBowling.java 397 2 4 2
+UnitTestCaseAction 1474458841743 TestBowling.java FAIL
+UnitTestSessionAction 1474458841745 TestBowling.java FAIL
+RefactoringAction 1474458854329 TestBowling.java RENAME sumFrameError()=>void Strike() METHOD
+RefactoringAction 1474458876875 TestBowling.java ADD void Strike()/2 METHOD
+RefactoringAction 1474458879894 TestBowling.java RENAME Strike()/2=>void strike() METHOD
+RefactoringAction 1474458883920 TestBowling.java RENAME Strike()=>void spare() METHOD
+EditAction 1474458891902 TestBowling.java 507 3 6 3

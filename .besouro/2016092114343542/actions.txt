@@ -37,3 +37,10 @@ RefactoringAction 1474459773375 BowlingGame.java ADD BowlingGame()/2 METHOD
 RefactoringAction 1474459792447 BowlingGame.java RENAME BowlingGame()/2=>BowlingGame(List<Frame>) METHOD
 RefactoringAction 1474459802506 BowlingGame.java RENAME BowlingGame(List<Frame>)=>BowlingGame(List<Frame>, Frame) METHOD
 EditAction 1474459823661 BowlingGame.java 1029 5 5 0
+RefactoringAction 1474459866582 TestBowling.java ADD void test FIELD
+RefactoringAction 1474459873093 TestBowling.java RENAME sumFrame()=>void testsumFrame() METHOD
+RefactoringAction 1474459874599 TestBowling.java RENAME strike()=>void teststrike() METHOD
+RefactoringAction 1474459875612 TestBowling.java RENAME spare()=>void testspare() METHOD
+RefactoringAction 1474459883127 TestBowling.java RENAME test=>void testBowlingScore FIELD
+RefactoringAction 1474459887151 TestBowling.java RENAME testBowlingScore=>void testBowlingScore() METHOD
+EditAction 1474460062385 TestBowling.java 700 4 6 3

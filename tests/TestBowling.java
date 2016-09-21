@@ -99,7 +99,7 @@ public class TestBowling {
 		bg.addFrame(new Frame(4, 5));
 		bg.addFrame(new Frame(8, 1));
 		bg.addFrame(new Frame(2, 8));
-		assertEquals(90, bg.score());
+		assertEquals(83, bg.score());
 	}
 
 }
